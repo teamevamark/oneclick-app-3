@@ -10,7 +10,7 @@ export function Header() {
         <Link to="/" className="flex items-center gap-3">
           <img src={elifeLogo} alt="e-life one-click" className="h-10 w-auto" />
           <span className="font-semibold text-lg hidden sm:inline gradient-text">
-            Company Access Hub
+            e-life oneclick-app
           </span>
         </Link>
         

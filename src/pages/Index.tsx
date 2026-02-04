@@ -24,7 +24,7 @@ const Index = () => {
 
         {/* Welcome text */}
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground mb-4">
-          Welcome to <span className="gradient-text font-bold">e-life one-click</span>
+          Welcome to <span className="gradient-text font-bold">e-life oneclick-app</span>
         </h1>
 
         {/* Maintenance badge */}
@@ -42,7 +42,7 @@ const Index = () => {
 
       {/* Footer */}
       <div className="absolute bottom-6 text-sm text-muted-foreground">
-        © 2026 e-life one-click. All rights reserved.
+        © 2026 e-life oneclick-app. All rights reserved.
       </div>
     </div>
   );
