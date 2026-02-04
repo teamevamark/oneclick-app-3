@@ -7,15 +7,15 @@ export default function Home() {
   const { data: companies, isLoading, error } = useCompanies();
 
   return (
-    <div className="min-h-screen flex flex-col bg-background">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-background via-background to-elife-cyan/5">
       <Header />
       
       <main className="flex-1 container px-4 py-8">
-        <div className="text-center mb-8">
-          <h1 className="text-2xl md:text-3xl font-bold mb-2">
-            Company Access Hub
+        <div className="text-center mb-10">
+          <h1 className="text-3xl md:text-4xl font-bold mb-3 gradient-text">
+            e-life oneclick-app
           </h1>
-          <p className="text-muted-foreground">
+          <p className="text-lg text-muted-foreground">
             Access all company websites and apps in one place
           </p>
         </div>
@@ -52,7 +52,7 @@ export default function Home() {
       </main>
 
       <footer className="border-t py-6 text-center text-sm text-muted-foreground">
-        © 2026 e-life one-click. All rights reserved.
+        © 2026 e-life oneclick-app. All rights reserved.
       </footer>
     </div>
   );
